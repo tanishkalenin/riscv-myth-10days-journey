@@ -3,15 +3,8 @@
 1. Install **Oracle VirtualBox**
 ![VirtualBox Setup](images/virtualbox.png)
 
-
-
-
-   
-   
-3. Install **Ubuntu Linux** inside **Oracle VirtualBox**.
-
-
-
+2. Install **Ubuntu Linux**
+![Ubuntu Installation](images/ubantuiso.png)
 
 4. Start the Ubuntu virtual machine and open the **Terminal**.
 
