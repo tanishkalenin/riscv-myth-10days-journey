@@ -17,5 +17,5 @@ This hands-on learning experience introduces you to the world of digital logic d
 | Day | Topic                                    | Subparts                              |
 | --- | ---------------------------------------- | ------------------------------------- |
 | 1   | Introduction to RISC-V ISA & GNU compiler toolchain | [RISC-V Basic keywords](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/riscvbasics.md) |
-|     |                                          | [RISC-V software toolchain](https://github.com/AnoushkaTripathi/NASSCOM-RISC-V-based-MYTH-program/blob/main/riscvsoftware.md)      |
-|     |                                          | [Integer number representation](https://github.com/AnoushkaTripathi/NASSCOM-RISC-V-based-MYTH-program/blob/main/integerrepresentation.md)       |
+|     |                                          | [RISC-V software toolchain](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/riscvsoftware.md)      |
+|     |                                          | [Integer number representation](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/integerrepresentation.md)       |
