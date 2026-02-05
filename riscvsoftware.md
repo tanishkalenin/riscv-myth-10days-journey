@@ -1,7 +1,8 @@
 ## Step 1: Setting Up Ubuntu in VirtualBox (VMBox)
 
 1. Install **Oracle VirtualBox**
- ![Image description](virtualbox.png)
+![VirtualBox Setup](images/virtualbox.png)
+
 
 
 
