@@ -38,46 +38,42 @@ Navigate to the home directory:
 $ cd
 ```
 ```
-$ leafpad filename.c &
+$ leafpad sum1ton.c &
 ```
 
-![image](https://github.com/user-attachments/assets/49f80e9e-9e0f-4c55-a526-99c0c40f35d7)
+![image](images/1stcprog.png)
 
 ## Step 3: Compile and Run the C Code
 Compile the C code:
 
 ```
 
-$ gcc filename.c
+$ gcc sum1ton.c
 
 ```
 Run the compiled program:
 ```
 $ ./a.out
 ```
-![image](https://github.com/user-attachments/assets/e029df5f-f931-4cc4-9b87-7df94b100aa5)
+![image](images/1stoutput.png)
 
-![image](https://github.com/user-attachments/assets/6eff5a0a-2866-4957-9e52-5e87ac542cee)
+
 ## Step 4: Compile C Code with RISC-V Compiler
 Compile the C code using the RISC-V compiler:
 ```
-$ riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o filename.o filename.c
+$ riscv64-linux-gnu-gcc -O1 -march=rv64gc -o sum1ton.o sum1ton.c
 ```
 List the compiled object file:
 
 ```
-$ ls -ltr filename.o
+$ ls -ltr sum1ton.o
 ```
-
-![image](https://github.com/user-attachments/assets/8c8e3183-c3b2-4148-a11c-9c2a3f9c8cdd)
-
 ## Step 5: Display Assembly Code
-
 
 Display the optimized assembly code for the main function:
 
 ```
-$ riscv64-unknown-elf-objdump -d filename.o | less
+$ riscv64-linux-gnu-objdump -d sum1ton.o
 ```
 
 ![image](https://github.com/user-attachments/assets/1f6443e6-c0cb-43b0-8a76-5777b7b6f82c)
