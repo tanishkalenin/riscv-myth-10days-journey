@@ -76,8 +76,13 @@ Display the optimized assembly code for the main function:
 $ riscv64-linux-gnu-objdump -d sum1ton.o
 ```
 
-![image](https://github.com/user-attachments/assets/1f6443e6-c0cb-43b0-8a76-5777b7b6f82c)
+![image](images/outwrisv.png)
 
+```
+$ riscv64-linux-gnu-objdump -d sum1ton.o |less
+```
+
+![image](images/outwrisvless.png)
 
 # Binary Neural Network in C
 ![image](https://github.com/user-attachments/assets/06fec611-7f1c-49eb-ac26-f5c0976c7e89)
