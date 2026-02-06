@@ -3,15 +3,26 @@
 1. Install **Oracle VirtualBox**
 ![VirtualBox Setup](images/virtualbox.png)
 
+
+
+
 2. Install **Ubuntu Linux**
 ![Ubuntu Installation](images/ubantuiso.png)
 
+
+
+
 3.Launch **VirtualBox** and click on the **New** button to create a new virtual machine. Fill
-up the details as shown in the image below.
+up the details as shown in the image below
+![Creating a new virtual machine](images/virtualmachin.png)
+
+
 
 
 4. Start the Ubuntu virtual machine and open the **Terminal**.
- 
+![Terminal view](images/terminalscr.png)
+
+
 
 ---
 
