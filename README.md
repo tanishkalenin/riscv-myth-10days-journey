@@ -119,15 +119,15 @@ The following steps show how to use a full Linux desktop inside your Codespace a
 
 3. Click the **Forwarded Address** link.
 
-   ![noVNC port](images/2.png)
+   ![noVNC port](images/1.png)
 
 4. A new browser tab opens with a directory listing. Click **`vnc_lite.html`**.
 
-   ![noVNC directory listing](images/3.png)
+   ![noVNC directory listing](images/2.png)
 
 5. The Linux desktop appears in your browser.
 
-   ![Desktop view](images/4.png)
+   ![Desktop view](images/3.png)
 
 ---
 
