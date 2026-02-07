@@ -84,54 +84,63 @@ $ riscv64-linux-gnu-objdump -d sum1ton.o |less
 
 ![image](images/outwrisvless.png)
 
-# Binary Neural Network in C
-![image](https://github.com/user-attachments/assets/06fec611-7f1c-49eb-ac26-f5c0976c7e89)
+# signed and unsigned integers and spike and debug
 
-
-```c
-int main(int argc, char* argv[])
-{
-    srand(0); // Use a fixed random seed for debugging.
-
-    // Initialize layers.
-    Layer* linput = Layer_create(NULL, 2);
-    Layer* lhidden = Layer_create(linput, 3);
-    Layer* loutput = Layer_create(lhidden, 1);
-    Layer_dump(linput, stderr);
-    Layer_dump(lhidden, stderr);
-    Layer_dump(loutput, stderr);
-
-    // Run the network.
-    double rate = 1.0;
-    int nepochs = 10000;
-    for (int i = 0; i < nepochs; i++) {
-        double x[2];
-        double y[1];
-        double t[1];
-        x[0] = rnd();
-        x[1] = rnd();
-        t[0] = f(x[0], x[1]);
-        Layer_setInputs(linput, x);
-        Layer_getOutputs(loutput, y);
-        Layer_learnOutputs(loutput, t);
-        double etotal = Layer_getErrorTotal(loutput);
-        fprintf(stderr, "i=%d, x=[%.4f, %.4f], y=[%.4f], t=[%.4f], etotal=%.4f\n",
-                i, x[0], x[1], y[0], t[0], etotal);
-        Layer_update(loutput, rate);
-    }
-
-    // Dump the finished network.
-    Layer_dump(linput, stdout);
-    Layer_dump(lhidden, stdout);
-    Layer_dump(loutput, stdout);
-
-    // Free the memory.
-    Layer_destroy(linput);
-    Layer_destroy(lhidden);
-    Layer_destroy(loutput);
-    return 0;
-}
+compile the unsignedHighest.c program using RISC-V compiler
 ```
-![image](https://github.com/user-attachments/assets/4b4ac4ad-6e43-48a9-a1a1-1d0c1e68ae05)
-![image](https://github.com/user-attachments/assets/faf45b2b-988e-4c3e-bccc-5a6b9d80b909)
-![image](https://github.com/user-attachments/assets/ac528eb5-21c4-4e68-bc16-4320206bf7c9)
+$ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o unsignedHighest.o unsignedHighest.c
+```
+
+![image](images/9.png)
+
+```
+$ spike pk unsignedHighest.o
+
+```
+
+![image](images/10.png)
+
+```
+**2**
+```
+$ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o unsignedHighest.o unsignedHighest.c
+```
+
+![image](images/11.png)
+
+```
+$ spike pk unsignedHighest.o
+
+```
+
+![image](images/12.png)
+
+```
+**3**
+```
+$ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o unsignedHighest.o unsignedHighest.c
+```
+
+![image](images/13.png)
+
+```
+$ spike pk unsignedHighest.o
+
+```
+
+![image](images/14.png)
+
+```
+
+**signed**
+
+$ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o signedHighest.o signedHighest.c
+```
+
+![image](images/15.png)
+
+```
+$ spike pk signedHighest.o
+
+```
+![image](images/16.png)
