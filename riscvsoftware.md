@@ -104,7 +104,6 @@ $ spike pk unsignedHighest.o
 **2**
 ```
 $ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o unsignedHighest.o unsignedHighest.c
-```
 
 ![image](images/11.png)
 
@@ -119,13 +118,12 @@ $ spike pk unsignedHighest.o
 **3**
 ```
 $ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o unsignedHighest.o unsignedHighest.c
-```
+
 
 ![image](images/13.png)
 
 ```
 $ spike pk unsignedHighest.o
-
 ```
 
 ![image](images/14.png)
