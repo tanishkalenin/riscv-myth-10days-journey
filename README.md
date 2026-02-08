@@ -19,8 +19,8 @@ This hands-on learning experience introduces you to the world of digital logic d
 | 1   | Introduction to RISC-V ISA & GNU compiler toolchain | [RISC-V Basic keywords](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/riscvbasics.md) |
 |     |                                          | [RISC-V software toolchain](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/riscvsoftware.md)      |
 |     |                                          | [Integer number representation](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/integerrepresentation.md)       |
-| 2   | ABI & Basic Verification Flow | [ABI Basics](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/ABIlab.md) |
-|     |                                          | [ABI Labs](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/verification.md)      |
+| 2   | ABI & Basic Verification Flow | [ABI Basics](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/ABI.md) |
+|     |                                          | [ABI Labs](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/ABILab.md)      |
 |     |                                          | [Basic Verification flow using iverilog](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/.md)       |
 | 3   | Digital logic with TL-Verilog in Makerchip IDE | [Logic Gates](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Logicgates.md)  |
 |     |                                          | [Makerchip Platform](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Makerchip_platform.md)    |
