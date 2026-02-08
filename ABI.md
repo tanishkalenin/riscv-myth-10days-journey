@@ -201,43 +201,54 @@ Registers are limited resources
 - Instruction Categories
 
 - **R-Type:**
+  
     - Register-to-register operations
+      
     - Example: add
 
 - **I-Type:**
       - Register + immediate
+  
       - Example: ld
 
 - **S-Type:**
+  
       - Store instructions
+  
       - Example: sd
 
 **Register Encoding**
 
-Each register field is 5 bits
-Allows 32 registers
-Same encoding used across instruction formats
+- Each register field is 5 bits
+- Allows 32 registers
+- Same encoding used across instruction formats
 
 ## RISC-V Register Naming (ABI Convention)
 
-|Register|	  |Name|	   |Purpose|
-|x0|	        |zero|	   |Constant 0|
-|x1|          | ra |      Return address
-|x2|	        | sp |      Stack pointer
-|x3|	        | gp |	      Global pointer
-|x4|            tp	      Thread pointer
-|x5–x7|	       t0–t2	    Temporaries
-|x10–x17|	     a0–a7	    Function arguments
-|x18–x27|	     s1–s11	    Saved registers
-|x28–x31|	     t3–t6	    Temporaries
+|Register| Name       |	 Purpose             |
+| ------ | ---------- | -------------------- |
+|x0      | zero       |	   Constant 0        |
+|x1      |  ra        |     Return address   |
+|x2	     | sp         |Stack pointer         |
+|x3	     | gp 	      |Global pointer        |
+|x4      |  tp	      |Thread pointer        |
+|x5–x7	 | t0–t2	    |Temporaries           |
+|x10–x17 | a0–a7	    |Function arguments    |
+|x18–x27 |s1–s11      |Saved registers       |
+|x28–x31 |t3–t6	      |Temporaries           |
 
 ## Role of ABI in Register Usage
 
 **ABI defines:**
+
  - Which registers a function can overwrite
+   
  - Which registers must be preserved
+   
  - How arguments and return values are passed
+   
  - This ensures:
+   
        - Compatibility across compilers
        - Correct function calls
        - Stable system behavior
