@@ -56,6 +56,7 @@ f = (s & x1) | (~s & x2)
 ```verilog
 assign f = s ? x1 : x2;
 
+```
 he ternary operator (? :) behaves like an if–else statement:
 
 If s = 1 → output is x1
@@ -87,12 +88,12 @@ f : Selected output
 
 🔢 Selection Logic
 
-|sel[1:0]|	Output|
+|sel[1:0]|	Output  |
 |--------|---------|
-|00	     |     a   |
-|01	     |     b   |
-|10	     |    c    |
-|11	     |    d     |
+|00      |     a   |
+|01      |     b   |
+|10      |    c    |
+|11      |    d    |
 
 💻 Verilog Implementation (Ternary Chain)
 
