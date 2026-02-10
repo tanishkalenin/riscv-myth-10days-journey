@@ -23,7 +23,7 @@ This hands-on learning experience introduces you to the world of digital logic d
 |     |                                          | [ABI Labs And Basic Verification flow using verilog](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/ABIlabs.md)      |
 | 3   | Digital logic with TL-Verilog in Makerchip IDE | [Logic Gates](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Logicgates.md)  |
 |     |                                          | [Makerchip Platform](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Makerchip_platform.md)    |
-|     |                                          | [Combinational Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Combinational_ckts.md) |
+|     |                                          | [Combinational Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Labcombo.md) |
 |     |                                          | [Sequential Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Sequential_ckts.md) |
 |     |                                          | [Pipelined Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/pipelined_logic.md) |
 |     |                                          | [Validity](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Validity.md) |
