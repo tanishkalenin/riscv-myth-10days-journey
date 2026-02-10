@@ -1,4 +1,4 @@
-## LAB
+## COMBINATIONAL CIRCUITS LAB
 
 # Fun makerchip platform exercise
 
@@ -49,4 +49,6 @@
 
 # Combinational Calculator
 
+
+![image](images/lgl9.png)
 
