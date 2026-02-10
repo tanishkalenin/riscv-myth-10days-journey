@@ -120,21 +120,25 @@ hardware design.
 🔧 Key Features
 
 ✅ Browser-Based Code Editor – No local installation required
+
+
 ✅ Live Cloud Simulation – Instant waveform generation
+
+
 ✅ Automatic Circuit Visualization – RTL to schematic view
+
+
 ✅ Waveform Viewer – Signal-level debugging over time
 
-✅ Integrated Debugging Tools
 
-Syntax error highlighting
+✅ Integrated Debugging Tools Syntax error highlighting Direct navigation to faulty logic
 
-Direct navigation to faulty logic
 
-✅ Save & Clone Projects
+✅ Save & Clone Projects Bookmarkable project URLs
 
-Bookmarkable project URLs
 
 ✅ Built-in Documentation & Examples
+
 
 🧭 Using Makerchip (Workflow)
 
