@@ -25,7 +25,7 @@ This hands-on learning experience introduces you to the world of digital logic d
 |     |                                          | [Makerchip Platform](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Makerchip_platform.md)    |
 |     |                                          | [Combinational Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Labcombo.md) |
 |     |                                          | [Sequential Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Sequential_ckts.md) |
-|     |                                          | [Pipelined Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/pipelined_logic.md) |
+|     |                                          | [Pipelined Logic](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/pipelinelogic.md) |
 |     |                                          | [Validity](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/Validity.md) |
 | 4   | Coding a RISC-V CPU subset  | [Simple RISC-V Microarchitecture](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/riscvmicro.md)      |
 |     |                                          | [Fetch & Decode](https://github.com/tanishkalenin/riscv-myth-10days-journey/blob/main/fetch%26decode.md) |
