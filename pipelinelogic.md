@@ -102,14 +102,11 @@ c = √(a² + b²)
 ![image](images/pl4.png)
 
 
-![image](images/pl5.png)
-
-
 ---
 
 ## 5. Timing Abstraction and Flexibility
 
-![image](images/pl6.png)
+![image](images/pl5.png)
 
 - **Function** and **timing** are separated
 - Function: squaring, adding, square root
@@ -166,7 +163,7 @@ c = √(a² + b²)
 
 ## 1. Pipelining for High Clock Frequency
 
-![image](images/pl7.png)
+![image](images/pl6.png)
 
 - Fast clocks require short logic paths
 - Pipelining:
@@ -191,18 +188,16 @@ c = √(a² + b²)
 - Stage 2: Add squares
 - Stage 3: Square root
 
+
+![image](images/pl7.png)
+
+
 ---
 
 ## 4. Waveform Viewer in Makerchip
 
 
 ![image](images/pl8.png)
-
-
-![image](images/pl9.png)
-
-
-![image](images/pl10.png)
 
 
 - Visualizes pipeline behavior over time
@@ -255,7 +250,7 @@ c = √(a² + b²)
 ## 10. Visualizing Feedback
 
 
-![image](images/p11.png)
+![image](images/pl7.png)
 
 
 - Makerchip visualizes feedback loops
@@ -275,7 +270,7 @@ c = √(a² + b²)
 
 ## Pipe Signals
 
-![image](images/pl12.png)
+![image](images/pl9.png)
 
 - Pipe signals:
 - Lowercase
@@ -304,7 +299,7 @@ c = √(a² + b²)
 
 ## Example: Fibonacci Pipeline
 
-![image](images/pl13.png)
+![image](images/pl10.png)
 
 - Stage 1: Compute sum
 - Stage 2: Store result
@@ -325,6 +320,11 @@ $err2 = ($err1 || $overflow) ? 1 : 0;
 $err3 = ($divby0 || $err2) ? 1 : 0;
 
 ```
+
+
+![image](images/pl10.png)
+
+
 
 - Errors detected at multiple stages
 
