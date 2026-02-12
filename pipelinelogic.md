@@ -387,4 +387,24 @@ $err3 = ($divby0 || $err2) ? 1 : 0;
      
    - **Multiplexer Re-Timing**: Moving the multiplexer to the second stage separates the operation from the selection, ensuring that timing constraints are met without overloading a single pipeline stage.
 
-     
+
+### LAB 
+
+
+## PIPELINE 
+
+
+![image](images/pl11.png)
+
+
+
+## SIMPLE CALCULATOR
+
+
+![image](images/pl16.png)
+
+
+
+## CYCLIC CALCULATOR
+
+![image](images/pl17.png)
