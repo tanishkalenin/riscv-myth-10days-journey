@@ -163,7 +163,7 @@ c = √(a² + b²)
 
 ## 1. Pipelining for High Clock Frequency
 
-![image](images/pl6.png)
+![image](images/pl7.png)
 
 - Fast clocks require short logic paths
 - Pipelining:
@@ -189,7 +189,7 @@ c = √(a² + b²)
 - Stage 3: Square root
 
 
-![image](images/pl7.png)
+![image](images/pl8.png)
 
 
 ---
@@ -197,7 +197,7 @@ c = √(a² + b²)
 ## 4. Waveform Viewer in Makerchip
 
 
-![image](images/pl8.png)
+![image](images/pl15.png)
 
 
 - Visualizes pipeline behavior over time
@@ -250,7 +250,7 @@ c = √(a² + b²)
 ## 10. Visualizing Feedback
 
 
-![image](images/pl7.png)
+![image](images/pl11.png)
 
 
 - Makerchip visualizes feedback loops
@@ -270,7 +270,7 @@ c = √(a² + b²)
 
 ## Pipe Signals
 
-![image](images/pl9.png)
+![image](images/pl13.png)
 
 - Pipe signals:
 - Lowercase
@@ -299,7 +299,7 @@ c = √(a² + b²)
 
 ## Example: Fibonacci Pipeline
 
-![image](images/pl10.png)
+![image](images/pl12.png)
 
 - Stage 1: Compute sum
 - Stage 2: Store result
