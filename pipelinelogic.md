@@ -322,7 +322,7 @@ $err3 = ($divby0 || $err2) ? 1 : 0;
 ```
 
 
-![image](images/pl10.png)
+![image](images/pl11.png)
 
 
 
